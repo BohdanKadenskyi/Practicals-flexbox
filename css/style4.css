@@ -1,0 +1,21 @@
+.list .list-item:nth-child(3n + 1) {
+  background-color: #ff4081;
+}
+
+.list .list-item:nth-child(3n - 1) {
+  background-color: #ff9800;
+}
+
+.list .list-item:nth-child(3n) {
+  background-color: #4caf50;
+}
+
+.list .list-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.list .list-item {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
