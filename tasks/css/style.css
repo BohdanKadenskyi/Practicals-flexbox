@@ -3,8 +3,12 @@ body {
   font-style: oblique;
 }
 
-.link:hover .list-item:focus {
-  color: coral;
+.link:hover,
+.link-item:focus {
+  color: green;
+}
+.link:active {
+  color: red;
 }
 
 .link {
